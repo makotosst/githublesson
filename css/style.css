@@ -10,6 +10,9 @@ p {
     float: right;
 }
 
+ul {
+    padding: 0;
+}
 header{
 position: fixed;
 top: 0;
@@ -136,12 +139,12 @@ margin-bottom: 15px;
 }
 .teaching-material-post {
     width: 100%;
-    height: auto;
+    height: 400px;
     display: flex;
 }
 .teaching-material-post-left {
-    width: 10%;
-    height: 100%;
+    width: 120px;
+    height: 300px;
     float: left;
     overflow: scroll;
     background-color: rgb(150, 170, 170);
