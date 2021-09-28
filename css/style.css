@@ -206,10 +206,14 @@ margin-bottom: 15px;
 }
 
 .teaching-material-post-right-under{
-    width: 400px;
-    height: 500px;
+    width: 465px;
+    height: 400px;
+    overflow: scroll;
+}
+.seikai {
     background-color: #FBFBFB;
     border: 2px solid #020202;
-    margin-top: 90px;
+    width: 400px;
+    height: 600px;
     margin-left: 30px;
 }
