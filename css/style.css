@@ -173,7 +173,15 @@ margin-bottom: 15px;
     flex-flow: column;
 }
 .center-text-top {
-    float: left;
+    margin-right: 240px;
+}
+.center-text-middle {
+    margin-right: 420px;
+    display: flex;
+}
+.center-text-middle input {
+    width: 30px;
+    margin-left: 20px;
 }
 .teaching-material-post-center-under {
     display: flex;
@@ -214,7 +222,7 @@ margin-bottom: 15px;
     flex-flow: column;
 }
 .teaching-material-post-right-text {
-    float: right;
+    margin-left: 280px;
 }
 
 .teaching-material-post-right-under{
