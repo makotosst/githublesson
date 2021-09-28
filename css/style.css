@@ -185,6 +185,12 @@ margin-bottom: 15px;
     height: 200px;
     border: 2px solid #020202;
     margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tokinaosi p{
+    margin: 0;
 }
 .kaitouyousi {
     width: 300px;
@@ -192,6 +198,12 @@ margin-bottom: 15px;
     border: 2px solid #020202;
     margin: 0 10px;
     background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kaitouyousi p{
+    margin: 0;
 }
 .teaching-material-post-right {
     width: 465px;
@@ -216,4 +228,10 @@ margin-bottom: 15px;
     width: 400px;
     height: 600px;
     margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seikai p{
+    margin: 0;
 }
