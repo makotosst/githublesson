@@ -37,13 +37,11 @@ margin-left: 50px;
 margin-top: 20px;
 background-color: #FFFFFF;
 }
-
-.teaching-material-image-box p{
-    font-size: 14px;
-  margin-top: 40%;
-  margin-left: 20%;
-  margin-right: 20%;
+.teaching-material-image-box img {
+    width: 100%;
+    height: auto;
 }
+
 .teaching-material-display ul{
     margin-left: 10px;
     margin-top: 30px;
@@ -105,8 +103,8 @@ margin-bottom: 15px;
 .yohak p{
     font-size: large;
     color: #ffffff;
-    margin-right: 550px;
-    padding-top: 5px;
+    margin-left: 600px;
+    margin-top: 5px;
 }
 
 .Syokai-saiten-tool {
@@ -202,6 +200,10 @@ margin-bottom: 15px;
     align-items: center;
     justify-content: center;
 }
+.tokinaosi img {
+    width: 80%;
+    height: auto;
+}
 .tokinaosi p{
     margin: 0;
 }
@@ -214,6 +216,10 @@ margin-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.kaitouyousi img {
+    width: 100%;
+    height: auto;
 }
 .kaitouyousi p{
     margin: 0;
@@ -244,6 +250,10 @@ margin-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.seikai img {
+    width: 100%;
+    height: auto;
 }
 .seikai p{
     margin: 0;
