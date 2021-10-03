@@ -104,19 +104,19 @@ margin-bottom: 15px;
    
 }
 
-.tool {
+.Syokai-saiten-tool {
     float: left;
     width: 60%;
     height: 80px;
     background-color:#FBFBFB;
 }
 
-.tool ul{
+.Syokai-saiten-tool ul{
     list-style: none;
     padding-left: 5px;
     margin-top: 5px;
 }
-.tool li{
+.Syokai-saiten-tool li{
     float: left;
     margin-right: 10px;
     margin-top: 10px;
