@@ -177,6 +177,17 @@ margin-bottom: 15px;
 }
 .center-text-top {
     margin-right: 240px;
+    display: flex;
+}
+.text-top1 {
+    width: 200px;
+    font-size: 12px;
+    display: block;
+}
+.text-top2 {
+    width: 200px;
+    font-size: 12px;
+    margin-left: 50px;
 }
 .center-text-middle {
     margin-right: 420px;
