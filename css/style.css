@@ -124,7 +124,10 @@ margin-bottom: 15px;
     margin-right: 10px;
     margin-top: 10px;
 }
-
+.fas fa-times{
+    margin-top: 260px;
+    font-size: large;
+}
 .itiran {
     background-color: #009688;
     width: 120px;
@@ -177,25 +180,45 @@ margin-bottom: 15px;
 }
 .center-text-top {
     margin-right: 240px;
-    display: flex;
+    display: -webkit-box;
 }
 .text-top1 {
-    width: 200px;
+    width: 180px;
     font-size: 12px;
     display: block;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .text-top2 {
-    width: 200px;
+    width: 180px;
     font-size: 12px;
-    margin-left: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text-top3 {
+    width: 180px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mt-ios-red {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 9px;
 }
 .center-text-middle {
     margin-right: 420px;
-    display: flex;
+    display: -webkit-box;
 }
 .center-text-middle input {
     width: 30px;
     margin-left: 20px;
+}
+.middle {
+    width: 180px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .teaching-material-post-center-under {
     display: flex;
