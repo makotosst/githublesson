@@ -124,9 +124,19 @@ margin-bottom: 15px;
     margin-right: 10px;
     margin-top: 10px;
 }
-.fas fa-times{
-    margin-top: 260px;
-    font-size: large;
+.tool-aikon {
+    display: flex;
+    padding: 20px 0;
+}
+.fas {
+    margin-left: 12px;
+    color: #020202;
+    font-size: 20px;
+}
+.far {
+    margin-left: 12px;
+    color: #020202;
+    font-size: 20px;
 }
 .itiran {
     background-color: #009688;
@@ -160,13 +170,16 @@ margin-bottom: 15px;
 }
 .teaching-material-post-left ul {
     list-style: none;
-
 }
 .teaching-material-post-left ul li {
     width: 100px;
     height: 100px;
     margin-bottom: 5px;
     border: 3px solid #020202;
+}
+.teaching-material-post-left ul li img {
+    width: 70%;
+    height: auto;
 }
 .teaching-material-post-center {
     width: 550px;
