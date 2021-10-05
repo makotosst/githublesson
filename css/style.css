@@ -33,24 +33,25 @@ background-color:#D8D8D8;
 .teaching-material-image-box {
 width: 100px;
 height: 120px;
-margin-left: 50px;
-margin-top: 20px;
+margin: 10px 20px;
 background-color: #FFFFFF;
 }
 .teaching-material-image-box img {
     width: 100%;
-    height: auto;
+    height: 120px;
 }
 
-.teaching-material-display ul{
-    margin-left: 10px;
-    margin-top: 30px;
-    
+.teaching-material-display ul{    
 }
-.teaching-material-display ul li{
+.saitourokutext {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.saitourokutext ul li{
     list-style: none;
     float: left;
     font-size: 12px;
+    margin-right: 10px;
 }
 
 input {
@@ -78,7 +79,7 @@ margin-bottom: 15px;
     margin-right: 5px;
     font-size: 20px;
     margin-top:60px;
-    margin-left: 50px;
+    margin-left: 20px;
     padding-right: 15px;
     color: floralwhite;
     background-color: black
