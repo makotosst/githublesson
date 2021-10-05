@@ -156,12 +156,12 @@ margin-bottom: 15px;
     height: 50px;
 }
 .teaching-material-post {
-    width: 100%;
+    width: 1130px;
     height: 400px;
     display: flex;
 }
 .teaching-material-post-left {
-    width: 110px;
+    width: 125px;
     height: 400px;
     overflow-y: scroll;
     background-color: rgb(150, 170, 170);
@@ -183,7 +183,7 @@ margin-bottom: 15px;
     height: auto;
 }
 .teaching-material-post-center {
-    width: 550px;
+    width: 525px;
     height: 400px;
     background-color: #FFEE00;
     overflow-y: scroll;
@@ -210,7 +210,7 @@ margin-bottom: 15px;
     margin-top: 10px;
 }
 .text-top3 {
-    width: 100px;
+    width: 65px;
     font-size: 12px;
     margin-top: 17px;
     margin-left: 20px;
@@ -278,11 +278,10 @@ margin-bottom: 15px;
     margin: 0;
 }
 .teaching-material-post-right {
-    width: 465px;
+    width: 480px;
     background-color: aquamarine;
     height: 400px;
     display: flex;
-    overflow: scroll;
     flex-flow: column;
 }
 .teaching-material-post-right-text {
@@ -292,7 +291,7 @@ margin-bottom: 15px;
 .teaching-material-post-right-under{
     width: 465px;
     height: 400px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .seikai {
     background-color: #FBFBFB;
