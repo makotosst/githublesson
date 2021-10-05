@@ -250,9 +250,10 @@ margin-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
 }
 .tokinaosi img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 .tokinaosi p{
