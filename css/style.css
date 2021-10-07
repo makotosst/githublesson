@@ -112,9 +112,17 @@ input {
     background-color: #c7c0c0;
 }
 
-.yohak-tryangle::before {
+.yohak-tryangle::after {
     font-size: large;
     color: #ffffff;
+    margin-left: 600px;
+    margin-top: 10px;
+    content:"▲"
+}
+
+.yohak-tryangle.open::after {
+    font-size: large;
+    color: #000000;
     margin-left: 600px;
     margin-top: 10px;
     content:"▼"
