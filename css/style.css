@@ -8,12 +8,13 @@ ul {
     padding: 0;
     margin-top: 5px;
 }
-header{
-position: fixed;
-top: 0;
-width: 1130px;
-height: 50px;
-background-color:#D8D8D8;
+
+header {
+    position: fixed;
+    top: 0;
+    width: 1130px;
+    height: 50px;
+    background-color:#D8D8D8;
 }
 
 .mypage {
@@ -31,37 +32,47 @@ background-color:#D8D8D8;
 }
 
 .teaching-material-image-box {
-width: 100px;
-height: 120px;
-margin: 10px 20px;
-background-color: #FFFFFF;
+    width: 100px;
+    height: 120px;
+    margin: 10px 20px;
+    background-color: #FFFFFF;
 }
+
 .teaching-material-image-box img {
     width: 100%;
     height: 120px;
 }
 
-.teaching-material-display ul{    
+.teaching-material-display ul {    
 }
+
 .saitourokutext {
     margin-left: 10px;
     margin-top: 20px;
 }
-.saitourokutext ul li{
+.saitourokutext ul li {
     list-style: none;
     float: left;
     font-size: 12px;
     margin-right: 10px;
 }
 
+.saitourokutext ul li span.saitourokutext-list-heading::before {
+    content: "["
+}
+
+.saitourokutext ul li span.saitourokutext-list-heading::after {
+    content: "]"
+}
+
 input {
-width: 400px;
-margin-top: 15px;
-margin-bottom: 15px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
-.btn-touroku button{
+.btn-touroku button {
     margin: auto;
     background-color: rgb(0, 0, 0);
     color: azure;
@@ -101,11 +112,12 @@ margin-bottom: 15px;
     background-color: #c7c0c0;
 }
 
-.yohak p{
+.yohak-tryangle::before {
     font-size: large;
     color: #ffffff;
     margin-left: 600px;
-    margin-top: 5px;
+    margin-top: 10px;
+    content:"▼"
 }
 
 .Syokai-saiten-tool {
@@ -115,51 +127,61 @@ margin-bottom: 15px;
     background-color:#FBFBFB;
 }
 
-.Syokai-saiten-tool ul{
+.Syokai-saiten-tool ul {
     list-style: none;
     padding-left: 5px;
     margin-top: 220px;
 }
-.Syokai-saiten-tool li{
+
+.Syokai-saiten-tool li {
     float: left;
     margin-right: 10px;
     margin-top: 10px;
 }
+
 .tool-aikon {
     display: flex;
     padding: 20px 0;
 }
+
 .fas {
     margin-left: 12px;
     color: #020202;
     font-size: 20px;
 }
+
 .far {
     margin-left: 12px;
     color: #020202;
     font-size: 20px;
 }
+
 .itiran {
     background-color: #009688;
     width: 120px;
     height: 50px;
 }
+
 .hunou {
     background-color: #FFEE00;
     width: 120px;
     height: 50px;
 }
-.kakutei{
+
+.kakutei {
     background-color: #FF0000;
     color: #FFFFFF;
     width: 130px;
     height: 50px;
 }
+
 .teaching-material-post {
     width: 1130px;
     height: 400px;
     display: flex;
 }
+
+
 .teaching-material-post-left {
     width: 125px;
     height: 400px;
@@ -169,79 +191,88 @@ margin-bottom: 15px;
     display: flex;
     flex-flow: column;
 }
+
 .teaching-material-post-left ul {
     list-style: none;
 }
+
 .teaching-material-post-left ul li {
     width: 100px;
     height: 100px;
     margin-bottom: 5px;
     border: 3px solid #020202;
 }
+
 .teaching-material-post-left ul li img {
     width: 70%;
     height: auto;
 }
+
 .teaching-material-post-center {
     width: 525px;
     height: 400px;
     background-color: #FFEE00;
     overflow-y: scroll;
 }
+
 .teaching-material-post-center-text {
     display: flex;
     flex-flow: column;
 }
-.center-text-top {
+
+.teaching-material-post-center-text-top {
     margin-right: 240px;
     display: -webkit-box;
 }
-.text-top1 {
+
+.teaching-material-post-center-text-top-1 {
     width: 350px;
     font-size: 12px;
     display: block;
     margin-top: 15px;
     margin-left: 15px;
 }
-.text-top2 {
-    width: 180px;
-    font-size: 12px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.text-top3 {
+
+.teaching-material-post-center-text-top-2 {
     width: 65px;
     font-size: 12px;
     margin-top: 17px;
     margin-left: 20px;
     display: block;
 }
+
 .mt-ios-red {
     font-size: 8px;
     margin-left: 5px;
     margin-top: 15px;
 }
+
 .center-text-middle {
     display: -webkit-box;
 }
+
 .center-text-middle input {
     width: 30px;
     margin-left: 20px;
     margin-top: 16px;
 }
+
 .mt-ios-blue {
     font-size: 8px;
     margin: 16px 8px;
 }
-.middle {
+
+.center-text-middle-pege {
     width: 100px;
     font-size: 12px;
     margin: 16px 2px;
 }
+
 .teaching-material-post-center-under {
     display: flex;
     overflow-y: scroll;
 }
+
 .tokinaosi {
     background-color: azure;
     width: 200px;
@@ -253,13 +284,16 @@ margin-bottom: 15px;
     justify-content: center;
     overflow: scroll;
 }
+
 .tokinaosi img {
     width: 100%;
     height: auto;
 }
-.tokinaosi p{
+
+.tokinaosi p {
     margin: 0;
 }
+
 .kaitouyousi {
     width: 300px;
     height: 500px;
@@ -270,13 +304,16 @@ margin-bottom: 15px;
     align-items: center;
     justify-content: center;
 }
+
 .kaitouyousi img {
     width: 100%;
     height: auto;
 }
-.kaitouyousi p{
+
+.kaitouyousi p {
     margin: 0;
 }
+
 .teaching-material-post-right {
     width: 480px;
     background-color: aquamarine;
@@ -284,15 +321,17 @@ margin-bottom: 15px;
     display: flex;
     flex-flow: column;
 }
+
 .teaching-material-post-right-text {
     margin-left: 280px;
 }
 
-.teaching-material-post-right-under{
+.teaching-material-post-right-under {
     width: 465px;
     height: 400px;
     overflow-y: scroll;
 }
+
 .seikai {
     background-color: #FBFBFB;
     border: 2px solid #020202;
@@ -303,10 +342,12 @@ margin-bottom: 15px;
     align-items: center;
     justify-content: center;
 }
+
 .seikai img {
     width: 100%;
     height: auto;
 }
-.seikai p{
+
+.seikai p {
     margin: 0;
 }
