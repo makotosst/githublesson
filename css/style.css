@@ -46,22 +46,22 @@ header {
 .teaching-material-display ul {    
 }
 
-.saitourokutext {
+.reregistration-text {
     margin-left: 10px;
     margin-top: 20px;
 }
-.saitourokutext ul li {
+.reregistration-text ul li {
     list-style: none;
     float: left;
     font-size: 12px;
     margin-right: 10px;
 }
 
-.saitourokutext ul li span.saitourokutext-list-heading::before {
+.reregistration-text ul li span.reregistration-text-list-heading::before {
     content: "["
 }
 
-.saitourokutext ul li span.saitourokutext-list-heading::after {
+.reregistration-text ul li span.reregistration-text-list-heading::after {
     content: "]"
 }
 
@@ -72,7 +72,7 @@ input {
 }
 
 
-.btn-touroku button {
+.btn-reregistration button {
     margin: auto;
     background-color: rgb(0, 0, 0);
     color: azure;
@@ -86,7 +86,7 @@ input {
     margin-top: 45px;
     margin-left: 10px;
 }
-.btn-gakunen select {
+.btn-grade select {
     margin-right: 5px;
     font-size: 20px;
     margin-top:60px;
@@ -97,7 +97,7 @@ input {
     
 }
 
-.btn-kamoku select {
+.btn-subject select {
     font-size: 20px;
     margin-top:60px;
     margin-left: px;
@@ -106,13 +106,13 @@ input {
     background-color: black
 }
 
-.yohak {
+.teaching-material-display-margin {
     width: 1130px;
     height: 30px;
     background-color: #c7c0c0;
 }
 
-.yohak-tryangle::after {
+.teaching-material-display-margin-tryangle::after {
     font-size: large;
     color: #ffffff;
     margin-left: 600px;
@@ -120,12 +120,22 @@ input {
     content:"▲"
 }
 
-.yohak-tryangle.open::after {
+.teaching-material-display-margin-tryangle.open::after {
     font-size: large;
     color: #000000;
     margin-left: 600px;
     margin-top: 10px;
     content:"▼"
+}
+
+.teaching-material-display-opener {
+    position: fixed;
+    top: 50px;
+    width: 1130px;
+    height: 100px;
+    display: flex;
+    background-color: #F1F1F1;
+    flex-wrap: wrap;
 }
 
 .Syokai-saiten-tool {
@@ -147,7 +157,7 @@ input {
     margin-top: 10px;
 }
 
-.tool-aikon {
+.tool-icon {
     display: flex;
     padding: 20px 0;
 }
@@ -164,19 +174,19 @@ input {
     font-size: 20px;
 }
 
-.itiran {
+.back-list {
     background-color: #009688;
     width: 120px;
     height: 50px;
 }
 
-.hunou {
+.undecidable {
     background-color: #FFEE00;
     width: 120px;
     height: 50px;
 }
 
-.kakutei {
+.scoring-confirmed {
     background-color: #FF0000;
     color: #FFFFFF;
     width: 130px;

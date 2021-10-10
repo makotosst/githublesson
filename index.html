@@ -22,16 +22,16 @@
         <div class="teaching-material-image-box">
             <img src="image/kyouzai-hyousi.jpeg" alt="image-box">
         </div>
-        <div class="saitourokutext">
+        <div class="reregistration-text">
             <ul>
-                <li><span class="saitourokutext-list-heading">回答者</span>テキストテキ</li>
-                <li><span class="saitourokutext-list-heading">回答日時</span>テキストテキ</li>
-                <li><span class="saitourokutext-list-heading">採点者</span>テキストテキ</li>
+                <li><span class="reregistration-text-list-heading">回答者</span>テキストテキ</li>
+                <li><span class="reregistration-text-list-heading">回答日時</span>テキストテキ</li>
+                <li><span class="reregistration-text-list-heading">採点者</span>テキストテキ</li>
             </ul>
             <div class="search-box">
                 <input type="text" value="小学生教科書ワーク英語4年小学校の英語活動に対応" tabindex="1">
             </div>
-            <div class="btn-touroku">
+            <div class="btn-reregistration">
                 <button tabindex="4">再登録</button>
             </div>
         </div>
@@ -42,28 +42,32 @@
         <div class="kyouzaihumei">
             <p>教材不明</p>
         </div>
-        <div class="btn-gakunen">
-            <select name="gakunen" selected tabindex="2">
+        <div class="btn-grade">
+            <select name="grade" selected tabindex="2">
                 <option value="">4年生</option>
             </select>
         </div>
-        <div class="btn-kamoku">
-            <select name="kamoku" selected tabindex="3">
+        <div class="btn-subject">
+            <select name="subject" selected tabindex="3">
                 <option value="">英語</option>
             </select>
         </div>
-        <div class="yohak">
-            <span class="yohak-tryangle"></span>
+        <div class="teaching-material-display-margin">
+            <span class="teaching-material-display-margin-tryangle"></span>
         </div>
     </div>
-
+    <div class="teaching-material-display-opener" style="display: none;">
+        <div class="teaching-material-display-margin">
+            <span class="teaching-material-display-margin-tryangle open"></span>
+        </div>
+    </div>
     <div class="Syokai-saiten-tool">
         <ul>
-            <li><button class="itiran" tabindex="5">← 一覧に戻る</button></li>
-            <li><button class="hunou" tabindex="6">判断不能</button></li>
-            <li><button class="kakutei" tabindex="7">採点確定</button></li>
+            <li><button class="back-list" tabindex="5">← 一覧に戻る</button></li>
+            <li><button class="undecidable" tabindex="6">判断不能</button></li>
+            <li><button class="scoring-confirmed" tabindex="7">採点確定</button></li>
         </ul>
-        <div class="tool-aikon">
+        <div class="tool-icon">
             <a href=""><i class="fas fa-times"></i></a>
             <a href=""><i class="far fa-circle"></i></a>
             <a href=""><i class="fas fa-caret-up"></i></a>
@@ -135,9 +139,9 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         $(function () {
-            $(".yohak-tryangle").on("click", function () {
-                $(".teaching-material-display").slideToggle();
-                $(".teaching-material-display").ToggleClass("open")
+            $(".teaching-material-display-margin-tryangle").on("click", function () {
+                $(".teaching-material-display").fadeToggle();
+                $(".teaching-material-display-opener").toggle();
             });
         })
     </script>
