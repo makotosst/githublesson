@@ -291,7 +291,7 @@ input {
     overflow-y: scroll;
 }
 
-.tokinaosi {
+.resolve {
     background-color: azure;
     width: 200px;
     height: 200px;
@@ -303,16 +303,16 @@ input {
     overflow: scroll;
 }
 
-.tokinaosi img {
+.resolve img {
     width: 100%;
     height: auto;
 }
 
-.tokinaosi p {
+.resolve p {
     margin: 0;
 }
 
-.kaitouyousi {
+.answer-sheet {
     width: 300px;
     height: 500px;
     border: 2px solid #020202;
@@ -323,12 +323,12 @@ input {
     justify-content: center;
 }
 
-.kaitouyousi img {
+.answer-sheet img {
     width: 100%;
     height: auto;
 }
 
-.kaitouyousi p {
+.answer-sheet p {
     margin: 0;
 }
 
